@@ -83,6 +83,17 @@ document.getElementById("BtnBay").onclick = function () {
     document.getElementById("xuatKetQua").innerHTML = `Số Tăng Dần lần lượt là ${soTangDan}`;
 }
 
+//Bài tập 8:
+
+//Bài tập 9: Đếm Số Nguyên
+document.getElementById("BtnChin").onclick = function () {
+    var demSoNguyen = 0;
+    for (var i = 0; i < arrSoNguyen.length; i++) {
+        demSoNguyen++;
+    }
+    document.getElementById("xuatKetQua").innerHTML = `Tổng các số nguyên lần lượt là: ${demSoNguyen}`
+}
+
 
 
 
